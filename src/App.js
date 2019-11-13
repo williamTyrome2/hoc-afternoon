@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import CurrencyHOC from './Components'
 
 class App extends Component {
   render() {
-    return (
-      <div>
-
-      </div>
-    );
+    return(
+      <>
+      <h2>Higher Order Component</h2>
+      <CurrencyHOC />
+      </>
+    )
   }
 }
-
-export default App;
